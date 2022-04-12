@@ -10,36 +10,41 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
+              id="105"
               src="./shows/brasil.jpeg"
               text="Lollapolooza Brazil"
               label="05.04.19"
-              path="/royal-albert-hall"
+              path="/show"
             />
             <CardItem
+              id="104"
               src="./shows/colombia.jpg"
               text="Estereo Picnic Festival"
               label="05.04.19"
-              path="/tranquility-base"
+              path="/show"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
+              id="103"
               src="./shows/chile.jpg"
               text="Lollapolooza Chile"
               label="31.03.19"
-              path="/am"
+              path="/show"
             />
             <CardItem
+              id="102"
               src="./shows/argentina.jpg"
               text="Lollapolooza Argentina"
               label="30.03.19"
-              path="/argentina-show"
+              path="/show"
             />
             <CardItem
+              id="101"
               src="./shows/paraguay.jpg"
               text="Asunciónico"
               label="28.03.19"
-              path="/records"
+              path="/show"
             />
           </ul>
         </div>

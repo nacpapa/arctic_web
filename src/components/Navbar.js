@@ -11,6 +11,7 @@ function Navbar() {
   const closeMobileMenu = () => {
     setClick(false);
     window.scrollTo(0, 0);
+    localStorage.setItem("boton", "uno");
   };
 
   const showButton = () => {
@@ -55,7 +56,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/members"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >

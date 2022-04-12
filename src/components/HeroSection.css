@@ -2,19 +2,17 @@
   font-family: "vox-light";
   src: url("../fonts/VoxLight.ttf") format("truetype");
 }
-
-img {
+.hero-container img {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: absolute;
   z-index: -1;
 }
 
 .hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
   height: 100vh;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

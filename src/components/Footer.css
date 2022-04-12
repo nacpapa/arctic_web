@@ -143,11 +143,11 @@
   }
 
   .footer-input {
-    width: 100%;
+    width: auto;
   }
 
   .btn {
-    width: 100%;
+    width: auto;
   }
 
   .footer-link-wrapper {

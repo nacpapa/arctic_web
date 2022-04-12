@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 function CardItem(props) {
-  const handleClick = () => window.scrollTo(0, 0);
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+    localStorage.setItem("id", props.id);
+  };
   return (
     <>
       <li className="cards__item">

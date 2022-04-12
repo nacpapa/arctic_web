@@ -30,6 +30,7 @@ h1 {
 }
 
 .cards__items {
+  justify-content: center;
   margin-bottom: 24px;
 }
 
@@ -115,7 +116,7 @@ h1 {
   padding: 1rem;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (idth: 1200px) {
   .content__blog__container {
     width: 84%;
   }
@@ -124,11 +125,17 @@ h1 {
 @media only screen and (min-width: 1024px) {
   .cards__items {
     display: flex;
+    justify-content: center;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .cards__item {
+    max-width: 100%;
     margin-bottom: 2rem;
+  }
+
+  .input-areas {
+    width: fit-content;
   }
 }

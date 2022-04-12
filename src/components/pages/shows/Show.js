@@ -4,7 +4,7 @@ import "../../../App.css";
 
 function Show(props) {
   return (
-    <div className="hero-container">
+    <div className="show-container">
       <iframe
         width="660"
         height="415"
